@@ -16,7 +16,7 @@ function AddNumbers() {
       <input
         type="number"
         id="Text1"
-        onChange={(e) => setNum1(+e.target.value)}
+        onChange={(e) => setNum1(parseFloat(e.target.value))}
         placeholder="enter a number"
       />
       <br></br>
@@ -24,7 +24,7 @@ function AddNumbers() {
       <input
         type="number"
         id="Text2"
-        onChange={(e) => setNum2(+e.target.value)}
+        onChange={(e) => setNum2(parseFloat(e.target.value))}
         placeholder="enter a number"
       />
       <br></br>
